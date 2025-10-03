@@ -5,5 +5,6 @@
 
 系級：科技系2年級
 
-作業一：[點我打開網站](https://你的GitHub帳號.github.io/你的repo名稱/website.html)
+作業一：[點我打開網站](https://41371125h-chinrouzhen.github.io/114-1-Introduction-to-the-Internet/website.html)
+
 
