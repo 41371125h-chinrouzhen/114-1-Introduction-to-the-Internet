@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/css/main.f855e6bc.css",
+    "main.js": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/js/main.4aa8b019.js",
+    "static/js/453.86525bbb.chunk.js": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/js/453.86525bbb.chunk.js",
+    "index.html": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/index.html",
+    "main.f855e6bc.css.map": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/css/main.f855e6bc.css.map",
+    "main.4aa8b019.js.map": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/js/main.4aa8b019.js.map",
+    "453.86525bbb.chunk.js.map": "/41371125h-chinrouzhen/114-1-Introduction-to-the-Internet/static/js/453.86525bbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.4aa8b019.js"
+  ]
+}
