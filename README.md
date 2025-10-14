@@ -7,4 +7,6 @@
 
 作業一：[個人網站](https://41371125h-chinrouzhen.github.io/114-1-Introduction-to-the-Internet/)
 
+作業二：[影片鏈接](https://youtu.be/BZgmRUJqkuQ)
+
 
