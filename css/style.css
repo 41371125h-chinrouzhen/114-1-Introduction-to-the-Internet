@@ -216,3 +216,130 @@
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
 }
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+/* The central line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #e9ecef; /* A light gray color from Bootstrap */
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Even items are on the right side */
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+/* The circular icon on the line */
+.timeline-icon {
+    position: absolute;
+    top: 20px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary); /* Uses your template's primary color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px var(--primary);
+}
+
+.timeline-item:nth-child(odd) .timeline-icon {
+    right: -20px; /* Position icon for left items */
+}
+
+.timeline-item:nth-child(even) .timeline-icon {
+    left: -20px; /* Position icon for right items */
+}
+
+.timeline-content {
+    padding: 20px;
+    background: var(--secondary); /* Uses your template's secondary color */
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Arrow pointing to the timeline */
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline-item:nth-child(odd) .timeline-content::before {
+    right: -10px;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent var(--secondary);
+}
+
+.timeline-item:nth-child(even) .timeline-content::before {
+    left: -10px;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent var(--secondary) transparent transparent;
+}
+
+.timeline-date {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767.98px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 15px;
+    }
+
+    .timeline-item:nth-child(even) {
+        left: 0%;
+    }
+
+    .timeline-icon {
+        left: 0;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-icon,
+    .timeline-item:nth-child(even) .timeline-icon {
+        left: 0;
+    }
+
+    .timeline-content::before {
+        left: -10px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--secondary) transparent transparent;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-content::before {
+        right: auto;
+    }
+}
