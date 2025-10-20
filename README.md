@@ -12,6 +12,7 @@
 [影片鏈接](https://youtu.be/BZgmRUJqkuQ)
 
 修改過的檔案與更新重點：
+
 --> Backend
       1. 新增server.js: Node.js/Express 服務器，運行 Port 4000。
       2. 新增依賴：express, node-fetch, @google/genai。
