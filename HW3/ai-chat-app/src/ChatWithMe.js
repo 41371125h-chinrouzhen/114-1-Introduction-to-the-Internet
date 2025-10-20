@@ -42,7 +42,7 @@ function ChatWithMe() {
               }));
 
             // 使用 fetch 與我們建立的後端伺服器溝通
-            const response = await fetch('https://hw3-virtual-me-backend.onrender.com', {
+            const response = await fetch('https://hw3-virtual-me-backend.onrender.com/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
