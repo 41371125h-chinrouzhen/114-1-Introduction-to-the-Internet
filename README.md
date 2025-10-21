@@ -30,6 +30,7 @@
 
 ##  作業三：個人網站結合react專案（AI分身）—— YOUTUBE
 [影片鏈接](https://youtu.be/e12vDhJ2BpU)
+
 -個人化 AI 整合： 建立了一個「虛擬分身」AI 聊天機器人，透過自訂知識庫，讓 Google Gemini AI 學習並模仿我的風格來互動。
 
 -前後端架構： 前端： React，後端： Node.js 建立的 API 伺服器。
