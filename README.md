@@ -27,3 +27,11 @@
       1. API 呼叫與驗證：定義了 curl 所驗證的數據 URL (/api/v1/component/60/chart?city=taipei)，并保持數據一致性。
       2. AI 串接：使用 fetch (node-fetch) 獲取數據、使用 @google/genai 呼叫模型構造個人化 Prompt。
       3. 介面修改：與原始儀表板單一圖表畫面明顯不同。
+
+##  作業三：個人網站結合react專案（AI分身）—— YOUTUBE
+[影片鏈接](https://youtu.be/e12vDhJ2BpU)
+-個人化 AI 整合： 建立了一個「虛擬分身」AI 聊天機器人，透過自訂知識庫，讓 Google Gemini AI 學習並模仿我的風格來互動。
+
+-前後端架構： 前端： React，後端： Node.js 建立的 API 伺服器。
+
+-Render： 將前端（Static Site）與後端（Web Service）專案完整部署至 Render.com。
