@@ -29,8 +29,7 @@
       3. 介面修改：與原始儀表板單一圖表畫面明顯不同。
 
 ##  作業三：個人網站結合react專案（AI分身）—— YOUTUBE
-[render鏈接](https://github.com/41371125h-chinrouzhen/114-1-render-repo)
-
+[RENDER鏈接](https://github.com/41371125h-chinrouzhen/114-1-render-repo)
 [影片鏈接](https://youtu.be/e12vDhJ2BpU)
 
 -個人化 AI 整合： 建立了一個「虛擬分身」AI 聊天機器人，透過自訂知識庫，讓 Google Gemini AI 學習並模仿我的風格來互動。
