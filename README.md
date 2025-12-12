@@ -1,7 +1,7 @@
 # 114-1-Introduction-to-the-Internet
-**授課教師：蔡芸琤老師
-**姓名：陳柔蓁
-**系級：科技系2年級
+*授課教師：蔡芸琤老師
+*姓名：陳柔蓁
+*系級：科技系2年級
 
 ##  作業一：個人網站
 [這裏！](https://41371125h-chinrouzhen.github.io/114-1-Introduction-to-the-Internet/)
@@ -11,7 +11,7 @@
 
 修改過的檔案與更新重點：
 
---> Backend
+*Backend
       1. 新增server.js: Node.js/Express 服務器，運行 Port 4000。
       2. 新增依賴：express, node-fetch, @google/genai。
       3. 主要邏輯委派給 DashboardComponent。
